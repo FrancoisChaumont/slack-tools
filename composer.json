@@ -1,0 +1,19 @@
+{
+    "name": "francoischaumont/slack",
+    "description": "Message functionalities through Slack API and apps",
+    "authors": [
+        {
+            "name": "Francois Chaumont",
+            "role": "main developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "FC\\Slack\\": "src/Slack/"
+        }
+    }
+}
