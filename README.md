@@ -21,7 +21,7 @@ composer install
 ### Post a message to a channel
 See [post-message.php](post-message.php)
 ```
-post-messsage.php -h/--help
+php post-messsage.php -h/--help
 ```
 See [README.post-message.md](READMEs/README.post-message.md) for more details.
 
