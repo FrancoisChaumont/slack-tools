@@ -43,7 +43,7 @@ $longOpts = [
 
 // set options
 $options = getopt($shortOpts, $longOpts);
-if (isset($options['h']) || isset($options['help'])) {
+if (sizeof($options) == 0 || isset($options['h']) || isset($options['help'])) {
     print USAGE;
     exit;
 }
