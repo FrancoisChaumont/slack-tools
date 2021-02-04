@@ -25,6 +25,13 @@ php post-messsage.php -h/--help
 ```
 See [README.post-message.md](READMEs/README.post-message.md) for more details.
 
+### Delete a message from a channel
+See [delete-message.php](delete-message.php)
+```
+php delete-messsage.php -h/--help
+```
+See [README.delete-message.md](READMEs/README.delete-message.md) for more details.
+
 ## Built with
 * Visual Studio Code
 
